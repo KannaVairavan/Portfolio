@@ -1,0 +1,25 @@
+{
+    box-sizing: border-box;
+  }
+
+body{
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+
+    /* Visual */
+    /* background-color:lightgrey; */
+}
+
+ 
+.navbar-brand.brand {
+    background-color:teal;
+    color: rgb(255,255,255);
+    padding: 5px;
+ }
+ h1{
+     color:teal;
+ }
+ p{
+    display: inline-flexbox;
+}
