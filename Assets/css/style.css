@@ -11,15 +11,25 @@ body{
     /* background-color:lightgrey; */
 }
 
- 
-.navbar-brand.brand {
+ .navbar-brand.brand {
     background-color:teal;
     color: rgb(255,255,255);
-    padding: 5px;
+    padding: 3px;
  }
  h1{
      color:teal;
  }
  p{
     display: inline-flexbox;
+}
+footer{
+    background:lightslategray;
+    padding:1px;
+    border-top-style: solid;
+    border-width:5px;
+    border-top-color: teal;
+    
+}
+.copy{
+    padding-top: 9px;
 }
