@@ -10,6 +10,9 @@ body{
     /* Visual */
     /* background-color:lightgrey; */
 }
+.bg{
+    background-color: beige;
+}
 
  .navbar-brand.brand {
     background-color:teal;
@@ -22,6 +25,7 @@ body{
  p{
     display: inline-flexbox;
 }
+
 footer{
     background:lightslategray;
     padding:1px;
