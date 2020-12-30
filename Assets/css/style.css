@@ -1,6 +1,4 @@
-{
-    box-sizing: border-box;
-  }
+
 
 body{
     /* Typography */
@@ -10,9 +8,7 @@ body{
     /* Visual */
     /* background-color:lightgrey; */
 }
-.bg{
-    background-color: beige;
-}
+
 
  .navbar-brand.brand {
     background-color:teal;
@@ -36,4 +32,9 @@ footer{
 }
 .copy{
     padding-top: 9px;
+}
+
+.btncl{
+    background-color: teal;
+    color: white;
 }
