@@ -23,6 +23,10 @@ body{
 }
 
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background:lightslategray;
     padding:1px;
     border-top-style: solid;
@@ -36,5 +40,9 @@ footer{
 
 .btncl{
     background-color: teal;
+    color: white;
+}
+.btnlinkedin{
+    background:lightslategray;
     color: white;
 }
