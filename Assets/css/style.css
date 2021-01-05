@@ -21,6 +21,10 @@ body{
  p{
     display: inline-flexbox;
 }
+h5{
+    font-family:sans-serif;
+    font-style: italic;
+}
 
 footer{
     position: fixed;
@@ -43,6 +47,6 @@ footer{
     color: white;
 }
 .btnlinkedin{
-    background:lightslategray;
-    color: white;
+    /* background:lightslategray; */
+    color:grey;
 }
