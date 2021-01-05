@@ -11,7 +11,9 @@ This application is following the structure of semantic HTML elements.
 
 
 ## Link
-https://github.com/KannaVairavan/HW2_Portfolio.git
+Github Repo: https://github.com/KannaVairavan/HW2_Portfolio.git
+
+https://kannavairavan.github.io/HW2_Portfolio/
 
 
 ### Technologies 
