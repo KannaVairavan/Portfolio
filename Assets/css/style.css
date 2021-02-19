@@ -1,52 +1,69 @@
+body {
+  /* Typography */
+  font-size: 18px;
+  line-height: 27px;
 
+  background: rgba(165, 42, 42, 0.274)
+    url("../images/oil-and-gas-industry-overview.png") no-repeat fixed center;
 
-body{
-    /* Typography */
-    font-size: 18px;
-    line-height: 27px;
+  /* Full height */
+  height: 100%;
 
-    /* Visual */
-    /* background-color:lightgrey; */
+  background-position: center;
+
+  background-repeat: repeat;
+
+  /* Visual */
+  background-color: rgba(165, 42, 42, 0.274);
 }
 
-
- .navbar-brand.brand {
-    background-color:teal;
-    color: rgb(255,255,255);
-    padding: 3px;
- }
- h1{
-     color:teal;
- }
- p{
-    display: inline-flexbox;
+.navbar-brand.brand {
+  background-color: rgb(59, 19, 19);
+  color: rgb(255, 255, 255);
+  padding: 3px;
 }
-h5{
-    font-family:sans-serif;
-    font-style: italic;
+h1 {
+  color: rgb(59, 19, 19);
 }
-
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background:lightslategray;
-    padding:1px;
-    border-top-style: solid;
-    border-width:5px;
-    border-top-color: teal;
-    
+p {
+  display: inline-flexbox;
 }
-.copy{
-    padding-top: 9px;
+h5 {
+  font-family: sans-serif;
+  font-style: italic;
 }
 
-.btncl{
-    background-color: teal;
-    color: white;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(59, 19, 19);
+  padding: 1px;
+  border-top-style: solid;
+  border-width: 5px;
+  border-top-color: peru;
 }
-.btnlinkedin{
-    /* background:lightslategray; */
-    color:grey;
+.copy {
+  padding-top: 9px;
+}
+
+.btncl {
+  /* background-color: teal; */
+  background-color: rgba(121, 92, 92, 0.274);
+  color: white;
+}
+.btnlinkedin {
+  /* background:lightslategray; */
+  color: grey;
+}
+.jumbotron {
+  background-color: rgba(121, 92, 92, 0.274);
+}
+
+.navbar {
+  background-color: rgb(59, 19, 19);
+  border-bottom-style: solid;
+  border-width: 5px;
+  border-bottom-color: peru;
 }
