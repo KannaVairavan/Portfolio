@@ -3,22 +3,21 @@ body {
   font-size: 18px;
   line-height: 27px;
 
-  background: rgba(165, 42, 42, 0.274)
-    url("../images/oil-and-gas-industry-overview.png") no-repeat fixed center;
+  background: url("../Images/HoustonSkyline.jpg") no-repeat fixed center;
 
   /* Full height */
   height: 100%;
 
   background-position: center;
-
-  background-repeat: repeat;
+  background-size: cover;
+  /* background-repeat: repeat; */
 
   /* Visual */
-  background-color: rgba(165, 42, 42, 0.274);
+  background-color: slategray;
 }
 
 .navbar-brand.brand {
-  background-color: rgb(59, 19, 19);
+  background-color: steelblue;
   color: rgb(255, 255, 255);
   padding: 3px;
 }
@@ -38,11 +37,11 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: rgb(59, 19, 19);
+  background: steelblue;
   padding: 1px;
   border-top-style: solid;
   border-width: 5px;
-  border-top-color: peru;
+  border-top-color: rgb(255, 255, 255);
 }
 .copy {
   padding-top: 9px;
@@ -58,12 +57,12 @@ footer {
   color: grey;
 }
 .jumbotron {
-  background-color: rgba(121, 92, 92, 0.274);
+  background-color: rgba(243, 243, 234, 0.233);
 }
 
 .navbar {
-  background-color: rgb(59, 19, 19);
+  background-color: steelblue;
   border-bottom-style: solid;
   border-width: 5px;
-  border-bottom-color: peru;
+  border-bottom-color: rgb(255, 255, 255);
 }
