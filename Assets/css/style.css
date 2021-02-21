@@ -76,7 +76,7 @@ footer {
   padding: 5px;
 }
 
-.social-icons .social-icon {
+.social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -88,9 +88,9 @@ footer {
   font-size: 1 rem;
   margin-right: 1.5rem;
 }
-.social-icons .social-icon:last-child {
+.social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+.social-icon:hover {
   background-color: #bd5d38;
 }
