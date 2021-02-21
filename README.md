@@ -25,7 +25,7 @@ This application is following the structure of semantic HTML elements._
 
 ## _Contact_
 
-### <img src="./Assets/Images/contact.png" alt="contact" width=80%>
+### <img src="./Assets/Images/Contact.png" alt="contact" width=80%>
 
 <hr>
 
