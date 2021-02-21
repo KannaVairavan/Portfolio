@@ -19,13 +19,13 @@ This application is following the structure of semantic HTML elements._
 
 ## _Portfolio_
 
-### <img src="./Assets/images/portfolio.png" alt="Portfolio" width=80%>
+### <img src="./Assets/Images/portfolio.png" alt="Portfolio" width=80%>
 
 <hr>
 
 ## _Contact_
 
-### <img src="./Assets/images/contact.png" alt="contact" width=80%>
+### <img src="./Assets/Images/contact.png" alt="contact" width=80%>
 
 <hr>
 
