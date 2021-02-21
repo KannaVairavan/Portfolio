@@ -13,7 +13,7 @@ This application is following the structure of semantic HTML elements._
 
 ## _About Me_
 
-### <img src="./Assets/images/aboutMe.PNG" alt="About Me" width=80%>
+### <img src="./Assets/Images/aboutMe.PNG" alt="About Me" width=80%>
 
 <hr>
 
