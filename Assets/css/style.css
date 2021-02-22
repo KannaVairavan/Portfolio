@@ -73,6 +73,9 @@ footer {
   border-width: 5px;
   border-bottom-color: rgb(255, 255, 255);
 }
+.nav-item:hover {
+  background-color: #bd5d38;
+}
 .col-sm-4 {
   padding: 5px;
 }
@@ -83,11 +86,14 @@ footer {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: steelblue;
   color: #fff;
   border-radius: 100%;
   font-size: 1 rem;
-  margin-right: 1.5rem;
+  margin-right: 1.5 rem;
+}
+.social-icons .bcResume {
+  width: 5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
