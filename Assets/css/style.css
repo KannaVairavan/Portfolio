@@ -3,7 +3,8 @@ body {
   font-size: 18px;
   line-height: 27px;
 
-  background: url("../Images/HoustonSkyline.jpg") no-repeat fixed center;
+  background: url("../Images/brandi-redd-aJTiW00qqtI-unsplash.jpg") no-repeat
+    fixed center;
 
   /* Full height */
   height: 100%;
@@ -17,7 +18,7 @@ body {
 }
 
 .navbar-brand.brand {
-  background-color: steelblue;
+  background-color: lightslategray;
   color: rgb(255, 255, 255);
   padding: 3px;
 }
@@ -26,7 +27,7 @@ h1 {
 }
 h6 {
   text-align: left;
-  font-family: sans-serif;
+  font-family: Montserrat;
   font-style: italic;
   font-size: medium;
 }
@@ -34,7 +35,7 @@ p {
   display: inline-flexbox;
 }
 h5 {
-  font-family: sans-serif;
+  font-family: Montserrat;
   font-style: italic;
 }
 
@@ -43,10 +44,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: steelblue;
+  background: lightslategray;
   padding: 1px;
   border-top-style: solid;
-  border-width: 5px;
+  border-width: 10px;
   border-top-color: rgb(255, 255, 255);
 }
 .copy {
@@ -56,7 +57,8 @@ footer {
 .btncl {
   /* background-color: teal; */
   background-color: rgba(121, 92, 92, 0.274);
-  color: white;
+  color: rgb(59, 19, 19);
+  font-weight: bolder;
 }
 .btnlinkedin {
   /* background:lightslategray; */
@@ -67,17 +69,25 @@ footer {
 }
 
 .navbar {
-  background-color: steelblue;
-  color: white;
+  background-color: lightslategray;
+  color: rgb(59, 19, 19);
   border-bottom-style: solid;
-  border-width: 5px;
+  border-width: 10px;
   border-bottom-color: rgb(255, 255, 255);
 }
 .nav-item:hover {
-  background-color: #bd5d38;
+  background-color: #22120c;
 }
 .col-sm-4 {
   padding: 5px;
+}
+.bgcolor {
+  color: rgb(59, 19, 19);
+  background-color: rgb(188, 198, 207);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 40px;
 }
 
 .social-icons .social-icon {
@@ -86,7 +96,7 @@ footer {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: steelblue;
+  background-color: lightslategray;
   color: #fff;
   border-radius: 100%;
   font-size: 1 rem;
@@ -99,5 +109,37 @@ footer {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #22120c;
+}
+#status {
+  width: 98%;
+
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: yellowgreen;
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: #22120c;
+  color: white;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
