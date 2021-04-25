@@ -13,11 +13,15 @@ This application is following the structure of semantic HTML elements._
 
 ## _About Me_
 
+brief introduction of myself
+
 ### <img src="./Assets/Images/aboutMe.PNG" alt="About Me" width=80%>
 
 <hr>
 
 ## _Portfolio_
+
+Portfolio page has 3 deployed projects of class activity.
 
 ### <img src="./Assets/Images/portfolio.png" alt="Portfolio" width=80%>
 
